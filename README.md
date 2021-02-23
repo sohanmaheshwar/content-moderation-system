@@ -29,7 +29,7 @@ The aim was to teach beginners/intermediate developers how to add a computer vis
 5. Fill in Region, Bucket Name, and File Name
 6. Run `node sample-image.js` and you will see the moderation labels in the console
 
-7. The `sample.js` example shows how to implement content moderation for video.  reate a SNS Topic, SQS Queue and an IAM Role and fill in these details. If you are unsure how to do these steps - View the talk linked above. You will have to sign up to view it.
+7. The `sample.js` example shows how to implement content moderation for video. Create a SNS Topic, SQS Queue and an IAM Role and fill in these details. If you are unsure how to do these steps - View the talk linked above. You will have to sign up to view it.
 
 8. Run `node sample.js`. If the program stops at the `snooze()` function just run `node sample.js` again. There is a finite time for SQS to send out the messages.
 
